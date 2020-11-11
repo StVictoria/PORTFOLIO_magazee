@@ -1,0 +1,112 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  background-color: #f4f4f4;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  color: #666;
+}
+
+h1,
+h2,
+p,
+ul,
+li,
+a,
+small {
+  font-weight: 400;
+  text-decoration: none;
+  color: #666;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  color: #fff;
+  padding: 14px 47px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.button_red {
+  background-color: #933;
+}
+
+.button_red:hover {
+  background-color: #ec4949;
+}
+
+.button_blue {
+  background-color: #099;
+}
+
+.button_blue:hover {
+  background-color: #24d4d4;
+}
+
+.button_blue:active {
+  background-color: grey;
+}
+
+.red-text {
+  color: #933;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  background-color: #fff;
+}
+
+.mainInfo,
+.someText,
+.price {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

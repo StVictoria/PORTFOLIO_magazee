@@ -1,0 +1,108 @@
+@import "./constants.scss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  background-color: #f4f4f4;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  color: #666;
+}
+
+h1,
+h2,
+p,
+ul,
+li,
+a,
+small {
+  font-weight: 400;
+  text-decoration: none;
+  color: #666;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  color: #fff;
+  padding: 14px 47px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  transition-duration: 0.3s;
+  cursor: pointer;
+
+  &_red {
+    background-color: $red_color_dark;
+
+    &:hover {
+      background-color: $red_color_light;
+    }
+  }
+
+  &_blue {
+    background-color: $blue_color_dark;
+
+    &:hover {
+      background-color: $blue_color_light;
+    }
+
+    &:active {
+      background-color: grey;
+    }
+  }
+}
+
+.red-text {
+  color: $red_color_dark;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #fff;
+}
+
+.mainInfo,
+.someText,
+.price {
+  margin-bottom: 30px;
+}
+
+@media (max-width: $large) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: $medium) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: $small) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: $xs) {
+  .container {
+    width: 100%;
+  }
+}

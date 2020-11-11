@@ -1,0 +1,68 @@
+@import "./constants.scss";
+
+.footer {
+  width: 100%;
+  background-color: $grey_color;
+  margin-top: -55px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 68px;
+    box-sizing: border-box;
+  }
+
+  &-leftPart,
+  &-rightPart {
+    h4,
+    address,
+    p {
+      color: #fff;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 18px;
+      margin: 0;
+    }
+
+    h4 {
+      font-weight: 400;
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+  }
+
+  &-rightPart {
+    line-height: 1.8;
+  }
+}
+
+@media (max-width: $small) {
+  .footer {
+    p,
+    address {
+      font-size: 15px;
+    }
+  }
+}
+
+@media (max-width: $xs) {
+  .footer {
+    &-container {
+      flex-direction: column;
+    }
+    &-leftPart {
+      margin-bottom: 30px;
+    }
+    &-leftPart,
+    &-rightPart {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}

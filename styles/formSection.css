@@ -1,0 +1,86 @@
+.formSection-header {
+  width: 100%;
+  background-color: #933;
+  padding: 40px 40px 90px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.formSection-header h2 {
+  color: #fff;
+  margin-left: 125px;
+}
+
+.formSection-content {
+  position: relative;
+  text-align: center;
+  max-width: 880px;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-top: -50px;
+  padding: 68px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.formSection-rightPart, .formSection-leftPart {
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+.formSection-group {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.formSection-group .radio-group {
+  padding: 12px 20px;
+}
+
+.formSection-group input,
+.formSection-group select,
+.formSection-group textarea {
+  width: inherit;
+  font-size: 20px;
+  color: #666;
+  padding: 15px 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #666;
+  border: 1px solid #ced4da;
+  outline-style: none;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+}
+
+.formSection-group input:focus,
+.formSection-group select:focus,
+.formSection-group textarea:focus {
+  border: 1px solid #933;
+  outline-style: solid;
+  outline-width: 4px;
+  outline-color: #e7d0d0;
+}
+
+.formSection-group textarea {
+  margin-top: 16px;
+}
+
+@media (max-width: 1200px) {
+  .formSection-header h2 {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .formSection-body.row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .formSection-rightPart, .formSection-leftPart {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=formSection.css.map */

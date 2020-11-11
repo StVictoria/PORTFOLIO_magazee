@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,UAAU,CAAC;EACT,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,UAAU;CAKvB;;AATD,AAME,UANQ,CAMR,CAAC,CAAC;EACA,KAAK,EAAE,IAAI;CACZ;;AAGH,MAAM,EAAE,SAAS,EAAE,KAAK;EACtB,AAAA,UAAU,CAAC;IACT,SAAS,EAAE,IAAI;GAChB",
+    "sources": [
+        "copyright.scss",
+        "constants.scss"
+    ],
+    "names": [],
+    "file": "copyright.css"
+}

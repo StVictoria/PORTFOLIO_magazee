@@ -1,0 +1,86 @@
+@import "./constants.scss";
+
+.formSection {
+  &-header {
+    width: 100%;
+    background-color: $red_color_dark;
+    padding: 40px 40px 90px;
+    box-sizing: border-box;
+
+    h2 {
+      color: #fff;
+      margin-left: 125px;
+    }
+  }
+
+  &-content {
+    position: relative;
+    text-align: center;
+    max-width: 880px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: -50px;
+    padding: 68px;
+    box-sizing: border-box;
+  }
+
+  &-rightPart,
+  &-leftPart {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+
+  &-group {
+    width: 100%;
+    margin-bottom: 16px;
+
+    .radio-group {
+      padding: 12px 20px;
+    }
+
+    input,
+    select,
+    textarea {
+      width: inherit;
+      font-size: 20px;
+      color: $grey_color;
+      padding: 15px 25px;
+      box-sizing: border-box;
+      color: $grey_color;
+      border: 1px solid #ced4da;
+      outline-style: none;
+      transition-duration: 0.1s;
+
+      &:focus {
+        border: 1px solid $red_color_dark;
+        outline-style: solid;
+        outline-width: 4px;
+        outline-color: #e7d0d0;
+      }
+    }
+
+    textarea {
+      margin-top: 16px;
+    }
+  }
+}
+
+@media (max-width: $large) {
+  .formSection-header {
+    h2 {
+      margin-left: 0;
+    }
+  }
+}
+
+@media (max-width: $small) {
+  .formSection-body.row {
+    flex-direction: column;
+  }
+  .formSection {
+    &-rightPart,
+    &-leftPart {
+      width: 100%;
+    }
+  }
+}
