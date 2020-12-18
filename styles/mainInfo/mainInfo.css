@@ -117,4 +117,18 @@
     width: 100%;
   }
 }
+
+@media (max-width: 576px) {
+  .mainInfo .row h1 {
+    font-size: 40px;
+  }
+  .mainInfo .row .photo {
+    width: 100px;
+    height: 100px;
+  }
+  h2 {
+    font-size: 25px;
+    margin: 0;
+  }
+}
 /*# sourceMappingURL=mainInfo.css.map */

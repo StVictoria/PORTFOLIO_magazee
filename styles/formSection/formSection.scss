@@ -1,4 +1,4 @@
-@import "./constants.scss";
+@import "../variables/variables.scss";
 
 .formSection {
   &-header {
@@ -82,5 +82,21 @@
     &-leftPart {
       width: 100%;
     }
+  }
+}
+
+@media (max-width: $xs) {
+  .formSection-content {
+    padding: 20px 10px;
+  }
+  .formSection input,
+  .formSection select,
+  .formSection textarea {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .radio-group label {
+    width: 50%;
   }
 }

@@ -15,4 +15,13 @@
     font-size: 10px;
   }
 }
+
+@media (max-width: 576px) {
+  .copyright {
+    padding: 0;
+  }
+  .copyright p {
+    font-size: 10px;
+  }
+}
 /*# sourceMappingURL=copyright.css.map */

@@ -2,10 +2,8 @@ html,
 body {
   margin: 0;
   padding: 0;
-  padding-top: 30px;
   background-color: #f4f4f4;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 21px;
   color: #666;
 }
 
@@ -67,6 +65,7 @@ ul {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding-top: 60px;
 }
 
 .row {
@@ -101,6 +100,7 @@ ul {
 @media (max-width: 768px) {
   .container {
     max-width: 540px;
+    padding: 0;
   }
 }
 
@@ -108,5 +108,15 @@ ul {
   .container {
     width: 100%;
   }
+  p,
+  button,
+  .button_red,
+  .button_blue,
+  ul,
+  li,
+  q,
+  i {
+    font-size: 15px;
+  }
 }
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=base.css.map */

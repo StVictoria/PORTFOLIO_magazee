@@ -1,4 +1,4 @@
-@import "./constants.scss";
+@import "../variables/variables.scss";
 
 .mainInfo {
   margin-bottom: 30px;
@@ -91,5 +91,21 @@
         align-items: center;
       }
     }
+  }
+}
+
+@media (max-width: $xs) {
+  .mainInfo .row h1 {
+    font-size: 40px;
+  }
+
+  .mainInfo .row .photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  h2 {
+    font-size: 25px;
+    margin: 0;
   }
 }
